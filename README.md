@@ -1,3 +1,32 @@
+# Hearts for Palestine
+
+Hearts for Palestine is a humanitarian project aimed at raising funds for our fellow brothers and sisters in Palestine that are enduring the harsh realities of Israeli aggression.
+Our mission is to shed light on the bitter realities faced by Palestinians and inspire acts of charity and generosity to help alleviate their suffering. Through donations, we hope to alleviate their suffering by providing essential resources such as food, shelter and medical aid, thereby nurturing hope and resilience within their communities.
+
+---
+
+# Contribution guidelines 
+
+
+If you're committing changes to this repo for the first time, copy/paste the following commands when you're making your first commit:
+
+```bash
+git checkout -b "your-name/feature"
+git add .
+git commit -m "New Feature"
+git push --set-upstream origin "your-name/feature"
+git checkout main
+```
+REPLACE `your-name/feature` with your name and the feature you're adding
+
+If it's not your first commit in the repo, use `git push` rather than `git push --set-upstream origin your-name/feature`
+
+Then head over to the GitHub repo online and create a pull request from the branch you just created. 
+
+After the first commit, you don't need to copy/paste the above again, you can make commits as usual.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
