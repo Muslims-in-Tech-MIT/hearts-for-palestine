@@ -1,0 +1,6 @@
+# Enable color output
+export FORCE_COLOR=true
+
+yarn lint
+yarn prettier
+git add .
