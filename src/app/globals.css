@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --primary: 39, 39, 39;
-  --secondary: 247, 251, 255;
+  --primary: 247, 251, 255;
+  --secondary: 39, 39, 39;
   --warning: 250, 159, 66;
   --silver: 108, 110, 160;
   --danger: 188, 44, 26;
+
+  .dark {
+    --primary: 39, 39, 39;
+    --secondary: 247, 251, 255;
+  }
 }
 
 html,
