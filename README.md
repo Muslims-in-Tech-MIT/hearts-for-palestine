@@ -1,7 +1,7 @@
 # Hearts for Palestine
 
-Hearts for Palestine is a humanitarian project aimed at raising funds for our fellow brothers and sisters in Palestine that are enduring the harsh realities of Israeli aggression.
-Our mission is to shed light on the bitter realities faced by Palestinians and inspire acts of charity and generosity to help alleviate their suffering. Through donations, we hope to alleviate their suffering by providing essential resources such as food, shelter and medical aid, thereby nurturing hope and resilience within their communities.
+Hearts for Palestine is a humanitarian project aimed at raising funds for our fellow brothers and sisters in Palestine.
+Our mission is to shed light on the bitter realities faced by Palestinians and inspire acts of charity and generosity to help alleviate their suffering. Through donations, we hope to provide essential resources such as food, shelter and medical aid, thereby nurturing hope and resilience within their communities.
 
 ---
 
