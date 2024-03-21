@@ -6,6 +6,9 @@ import "./globals.css";
 // providers
 import ThemeProvider from "@/providers/theme";
 
+// components
+import Header from "@/components/header";
+
 // fonts
 import { Poppins } from "next/font/google";
 const poppins = Poppins({
@@ -28,7 +31,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={poppins.className}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

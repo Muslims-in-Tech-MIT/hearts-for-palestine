@@ -22,3 +22,7 @@ body {
 body {
   @apply h-full w-screen overflow-hidden flex flex-col bg-primary text-secondary;
 }
+
+h1 {
+  @apply text-3xl;
+}
