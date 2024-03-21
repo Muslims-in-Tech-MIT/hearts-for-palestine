@@ -14,7 +14,7 @@ function Header() {
         {HEADER_LINKS?.map(({ label, link }, index) => (
           <LinkBase
             href={link}
-            className="px-3 py-2 capitalize hover:bg-danger rounded-lg transition-all duration-300"
+            className="px-3 py-2 capitalize hover:bg-accent-main rounded-lg transition-all duration-300"
             key={index}
           >
             {label}

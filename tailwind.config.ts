@@ -1,5 +1,15 @@
 import type { Config } from "tailwindcss";
 
+const generateColorClass = (colorName: string) => {
+  return {
+    [`${colorName}-lighter`]: `var(--${colorName}-lighter)`,
+    [`${colorName}-light`]: `var(--${colorName}-light)`,
+    [`${colorName}`]: `var(--${colorName})`,
+    [`${colorName}-dark`]: `var(--${colorName}-dark)`,
+    [`${colorName}-darker`]: `var(--${colorName}-darker)`,
+  };
+};
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,11 +24,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: `rgb(var(--primary))`,
-        secondary: `rgb(var(--secondary))`,
-        danger: `rgb(var(--danger))`,
-        warning: `rgb(var(--warning))`,
-        silver: `rgb(var(--silver))`,
+        ...generateColorClass("primary"),
+        ...generateColorClass("secondary"),
+        ...generateColorClass("accent-main"),
+        ...generateColorClass("accent-secondary"),
+        ...generateColorClass("accent-tertiary"),
       },
     },
   },
